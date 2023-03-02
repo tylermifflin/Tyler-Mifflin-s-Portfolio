@@ -14,7 +14,7 @@ body {
 
 
 @media screen and (max-width: 980px) {
-.header, .header h1, .header div nav a {
+.header, .header h1, .header div nav a, .kalalau img, .kalalau h2 {
     flex-direction: column;
     justify-content: space-evenly;
     text-align: center;
@@ -63,7 +63,7 @@ body {
 }
 
 .header :hover {
-    color: rgb(248, 242, 248);
+    color: rgb(246, 118, 226);
 }
 
 .kalalau {
@@ -91,12 +91,13 @@ body {
     left:75%;
     display:flex
 
+}
+
+.kalalau :hover {
+    color:rgb(231, 35, 9);
+}
 
 
-
-
-    
-    
  
 
 
