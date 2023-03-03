@@ -84,8 +84,8 @@ header :hover {
     font-weight: 700;
     text-shadow: 2px 2px 4px #000000;
     position: absolute;
-    top: 65%;
-    left:75%;
+    top: 500px;
+    left: 75%;
     display:flex
 
 }
@@ -94,8 +94,8 @@ header :hover {
     color:rgb(231, 35, 9);
 }
 
-.main { 
-    margin-left: 25%;
+.main-setup { 
+    margin-left: 50px;
     margin-right: 50px;
     max width: 75%;
 }
@@ -104,24 +104,51 @@ header :hover {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    justify-content: space-evenly;
-
+    justify-content: space-between;
+    margin: 20px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
     
+
 }
 
-.main-content h2 {
-    color: var(--color-tertiary);
+main {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: var(--navbar-color);
     font-size: 2em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 700;
     text-shadow: 2px 2px 4px #000000;
-    text-align: right;
+    border-left: 10px solid rgb(43, 245, 63);
+    padding-left: 10px;
+    
     
 }
+
+p {
+    margin-left: 20px;
+}
+
+
+
+.image-wrapper {
+    overflow: auto;
+}
+
+
  
-.footer {
+img {
+    float:right;
+    margin: left 20px;
+    height: 500px;
+    width: auto;
+}
+
+
+footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
