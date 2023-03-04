@@ -188,12 +188,67 @@ img {
     color: var(--hov-color);
 }
 
+.project-mock-ups {
+    position: relative;
+
+}
+
+.project-mock-ups img {
+    height: 50vh;
+    width: 35%;
+    background-position: center; 
+    display:flex;  
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 30px;
+    
+}
+
+.whats-that-plant {
+    position: absolute;
+    left: 66%;
+    top: 7%;
+    color:var(--hov-color);
+    font-size: 2em;
+    text-decoration: underline;
+}
+
+.photography-project {
+    position: absolute;
+    left: 33%;
+    top: 7%;
+    color:var(--hov-color);
+    font-size: 2em;
+    text-decoration: underline;
+}
+
+.create-the-life-of-your-dreams {
+    position: absolute;
+    left: 33%;
+    top: 57%;
+    color:var(--hov-color);
+    font-size: 2em;
+    text-decoration: underline;
+}
+
+.travel-stoked {
+    position: absolute;
+    left: 73%;
+    top: 54%;
+    color:var(--hov-color);
+    font-size: 2em;
+    text-decoration: underline;
+}
+
+
+
 
 footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-left: 25%;
     margin-right: 50px;
     max width: 75%;
 }
