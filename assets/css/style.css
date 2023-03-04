@@ -7,6 +7,7 @@
     --title-color: aquamarine;
     --navbar-color: rgb(43, 245, 63);
     --body-color: rgb(190, 227, 227);
+    --hov-color: rgb(246, 118, 226);
 }
 body {
     background-color: var(--body-color);
@@ -61,7 +62,7 @@ nav a {
 }
 
 header :hover {
-    color: rgb(246, 118, 226);
+    color: var(--hov-color);
 }
 
 .kalalau {
@@ -158,9 +159,35 @@ img {
     width: auto;
 }
 
-.projects {
+.increase-customer-volume-and-revenue-container {
+    position: relative
+ 
+}
+
+.increase-customer-volume-and-revenue-container img {
+    height: 50vh;
+    width: 75%;
+    background-position: center;
+    display:block
+    display:flex
+    
+}
+.increase-customer-volume-and-revenue-container a {
+    position:absolute;
+    top: 80%;
+    left: 50%;
+    color: var(--navbar-color);
+    font-size: 2em;
+    text-decoration: underline;
+
+
 
 }
+
+.increase-customer-volume-and-revenue-container a:hover {
+    color: var(--hov-color);
+}
+
 
 footer {
     display: flex;
