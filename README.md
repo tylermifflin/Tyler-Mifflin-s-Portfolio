@@ -9,7 +9,7 @@
 -I added alt tags for accessibility.
 -I added comments to my HTML and CSS making it easy to follow my workflow.
 
-Here is a screenshot of my page and a link to it: 
+Here is a screenshot of my page and a link to it: https://tylermifflin.github.io/Tyler-Mifflin-s-Portfolio/
 ![Screenshot 2023-03-06 at 5 35 11 PM](https://user-images.githubusercontent.com/123903709/223289014-7b6acb60-978e-48b6-8365-858cd49ce2c4.png)
 
 
