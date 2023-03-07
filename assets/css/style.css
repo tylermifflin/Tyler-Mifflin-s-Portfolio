@@ -1,20 +1,25 @@
+/* universal css */
+
 * {
     box-sizing: border-box;
 }
 
-:root {
+/* added my variable colors*/
+.root {
     --header-color: rgb(65, 58, 58);
     --title-color: aquamarine;
     --navbar-color: rgb(43, 245, 63);
     --body-color: rgb(190, 227, 227);
     --hov-color: rgb(246, 118, 226);
 }
+
+/* added background color to body */
 body {
     background-color: var(--body-color);
     
 }
 
-
+/* using this to adjust screen for mobile */
 @media screen and (max-width: 980px) {
 header, h1, nav a, .kalalau, .kalalau img, .kalalau h2,
  .main-setup, .main-content, .main-content h3, p, .image-wrapper, img, 
@@ -24,7 +29,7 @@ flex-direction: column;
     
 }
 }
-
+/* set up my header, h1, and nav a to be flex and have a good spacing and color I wanted, added variable colors */
 header {
     display: flex;
     justify-content: space-between;
@@ -63,10 +68,11 @@ nav a {
     
 }
 
+/* added hover to the header */
 header :hover {
     color: var(--hov-color);
 }
-
+/* i made the position relative so the text for my subtitle would be on top of the image */
 .kalalau {
     position: relative;
 
@@ -93,19 +99,20 @@ header :hover {
     display:flex
 
 }
-
+/* added hover to the kalalau image */
 .kalalau :hover {
     color:rgb(231, 35, 9);
 }
 
 
-
+/* added margin and max width to resemble the mock up but give it my own style */
 .main-setup { 
     margin-left: 50px;
     margin-right: 50px;
     max width: 75%;
 }
 
+/* added flex and margin to make it look good at different sizes */
 .main-content {
     display: flex;
     flex-direction: row;
@@ -116,7 +123,7 @@ header :hover {
     
 
 }
-
+/* wanted to style all the h3 text the same*/
 .main-content h3 {
     color: var(--title-color);
     font-size: 3em;
@@ -139,7 +146,7 @@ main {
 }
 
 
-
+/* wanted to style the p to wrap around the image */
 
 p {
     font-size: 2em;
@@ -150,7 +157,7 @@ p {
     
 }
 
-
+/* used this to make my profile pic and the text wrap and look good together */
 
 .image-wrapper {
     overflow: auto;
@@ -164,7 +171,7 @@ img {
     height: 500px;
     width: auto;
 }
-
+/* followed same pattern to have my text be on top of my image, also to adjust size of position of image and text */
 .increase-customer-volume-and-revenue-container {
     position: relative
  
@@ -189,11 +196,11 @@ img {
 
 
 }
-
+/* added hover to change the color of the link */
 .increase-customer-volume-and-revenue-container a:hover {
     color: var(--hov-color);
 }
-
+/* i set the rest of my project mock ups here to be smaller than the first project and to be lined up with 2 images on each row and have my text over the image */
 .project-mock-ups {
     position: relative;
     display:flex;  
