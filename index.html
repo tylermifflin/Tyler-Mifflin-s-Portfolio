@@ -9,68 +9,69 @@
 </head>
 
 <body>
-    <!--I set up a div to contain the header and nav bar so I can style it with CSS-->
     <header><!--I set up header up to add CSS styles and link to other sections in the page-->
         <h1>Tyler Mifflin's Portfolio</h1>
         <nav>
                 <a href="#get-to-know-me">Get to Know me</a>
                 <a href="#projects">Noteworthy projects</a>
                 <a href="#lets-work-together">Let's work together</a>
-                <a href="my-resume">My Resume</a>
+                <a href="https://www.linkedin.com/in/tyler-mifflin-116ba9132/">My Resume</a>
         </nav>
     </header>
     
     <section>
         <div class="kalalau">
-        <img src="assets/images/kalalaubeach1.jpg" alt="a picture of kalalau beach"> <!--This main photo will give my page style and a personal approach-->
+        <img src="assets/images/kalalaubeach1.jpg" alt="a picture of kalalau beach"> <!--This main photo will give my page style and a personal approach, this is my background style with a sub title included-->
             <h2>Stay Stoked!</h2>
         </div>
     </section>
     <main class="main-setup"> <!--My plan is to set up the sections with similar CSS classes to make it simple but include flex properties and style-->
-        <section class="main-content" id="get-to-know-me">
-          <div class="image-wrapper">  
-                <img src="assets/images/IMG_0484.JPG" alt=" a profile picture of Tyler Mifflin">
-            <div class="content-wrapper">
+        <section class="main-content" id="get-to-know-me"> <!--I added the class main content to each section to organize the content the way I wanted, I added the id tags to link my h refs in the header to certain sections in the page-->
+          <div class="image-wrapper">  <!--I added a wrapper to the image and text to make my paragraph wrap around the image-->
+                <img src="assets/images/IMG_0484.JPG" alt=" a profile picture of Tyler Mifflin"> <!--I added a profile pic and an alt for accessibility-->
+            <div class="content-wrapper"> <!--I added a wrapper to the text to make it wrap around my profile pic-->
                 <h3>Get to Know me</h3>
             <p>My name is Tyler Mifflin, I am a creative web developer. I have a positive outlook on life. I am passionate about physical and mental health, outdoor recreation, the environment, and photography. I enjoy snowboarding, surfing, hiking, traveling, and spending time in the mountains.
             </p>  
             </div>
         </div>
         </section>
-        <section id="projects" class="main-content">
+        <section id="projects" class="main-content"> <!--I added the id projects to link to this section of the page from the header links-->
             <h3>Noteworthy projects</h3> 
-            <div class="increase-customer-volume-and-revenue-container">
+            <div class="increase-customer-volume-and-revenue-container"> <!--I added a div here to orgainize my first project and make it bigger than the other four-->
                 <!--Only the first project is actually live, the others are just mock up ideas, hence they don't have any links-->  
-                <img src="assets/images/Screenshot 2023-03-04 at 2.39.50 PM.png" alt="a screenshot of the increase customer value and revenue project">
+                <img src="assets/images/Screenshot 2023-03-04 at 2.39.50 PM.png" alt="a screenshot of the increase customer value and revenue project"> <!--I added a screenshot of the project to show what it looks like, I added the alt for accessibility-->
                 <a href="https://tylermifflin.github.io/Increase-Customer-Volume-and-Revenue/">Increase-Customer-Volume-and-Revenue</a>
             </div>
-            <div class="project-mock-ups">
-                    <img src="/assets/images/priestlake21.JPG" alt="a picture of a plant">
+            <div class="project-mock-ups"> <!--I orgainized these projects into one div to style them in a similar way, I made the class relative with the img and text absolute so I could place it where I wanted-->
+                    <!--I made separate classes for the text to place it over my mock-up images-->
+                    <img src="/assets/images/priestlake21.JPG" alt="a picture of a plant"> <!--added the alt for accessibility-->
                     <a class="whats-that-plant">What's that plant?</a>
-                    <img src="/assets/images/northernlightsiceland21.jpg" alt="a picture of the northern lights">
+                    <img src="/assets/images/northernlightsiceland21.jpg" alt="a picture of the northern lights"> <!--added the alt for accessibility-->
                     <a class="photography-project">Photography Project</a>
-                    <img src="/assets/images/reflectioncanyon.jpg" alt="a picture of reflection canyon">
+                    <img src="/assets/images/reflectioncanyon.jpg" alt="a picture of reflection canyon"> <!--added the alt for accessibility-->
                     <a class="create-the-life-of-your-dreams">Create the life of your dreams</a>
-                    <img src="/assets/images/Mont Rotui 13.jpg" alt="a picture of a mountain ridge overlooking the ocean">
+                    <img src="/assets/images/Mont Rotui 13.jpg" alt="a picture of a mountain ridge overlooking the ocean"> <!--added the alt for accessibility-->
                     <a class="travel-stoked">Travel Stoked</a>
             </div>
         </section>
-    </main>
-        <footer class="footer">
+    
+        
             <section id="lets-work-together" class="main-content">
+                 <!--I added the id lets-work-together to link to this section of the page from the header links-->
+                
             <h3>Let's work together</h3>
             <div>
-            <nav> <!--I added links to my contact info so I can get a job!-->
-                    <a href="tel:8015806702">801-580-6702</a>
+            <nav> <!--I added links to my contact info so I can get a job! I kept the same style as the nav a in the header-->
+                     <a href="tel:8015806702">801-580-6702</a>
                     <a href="mailto:tyler.mifflin1@hotmail.com">tyler.mifflin1@hotmail.com</a>
                     <a href="https://github.com/tylermifflin">GitHub</a>
                     <a href="https://www.linkedin.com/in/tyler-mifflin-116ba9132/">Linkedin</a>
                     <a href="https://www.instagram.com/tymiff/">Instagram</a>
-                
-            </nav>
+             </nav>
             </div>
             </section>
-        </footer>
+        </main>
             
         
 
