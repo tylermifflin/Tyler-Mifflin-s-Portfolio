@@ -1,11 +1,10 @@
-/* universal css */
 
 * {
     box-sizing: border-box;
 }
 
 /* added my variable colors*/
-.root {
+:root {
     --header-color: rgb(65, 58, 58);
     --title-color: aquamarine;
     --navbar-color: rgb(43, 245, 63);
@@ -29,6 +28,7 @@ flex-direction: column;
     
 }
 }
+
 /* set up my header, h1, and nav a to be flex and have a good spacing and color I wanted, added variable colors */
 header {
     display: flex;
