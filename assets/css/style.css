@@ -228,9 +228,13 @@ img {
     position: absolute;
     left: 33%;
     top: 7%;
-    color:var(--hov-color);
+    color:var(--navbar-color);
     font-size: 2em;
     text-decoration: underline;
+}
+
+.whats-that-plant:hover {
+    color: var(--hov-color);
 }
 
 .photography-project {
