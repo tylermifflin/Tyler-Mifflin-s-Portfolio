@@ -172,20 +172,17 @@ img {
     width: auto;
 }
 /* followed same pattern to have my text be on top of my image, also to adjust size of position of image and text */
-.increase-customer-volume-and-revenue-container {
+.become-container {
     position: relative
  
 }
 
-.increase-customer-volume-and-revenue-container img {
-    height: 50vh;
-    width: 75%;
-    background-position: center;
-    display:block
+.become-container img {
+    display:block;
     display:flex
     
 }
-.increase-customer-volume-and-revenue-container a {
+.become-container a {
     position:absolute;
     top: 80%;
     left: 50%;
@@ -197,7 +194,7 @@ img {
 
 }
 /* added hover to change the color of the link */
-.increase-customer-volume-and-revenue-container a:hover {
+.beomce-container a:hover {
     color: var(--hov-color);
 }
 /* i set the rest of my project mock ups here to be smaller than the first project and to be lined up with 2 images on each row and have my text over the image */
