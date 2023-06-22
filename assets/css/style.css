@@ -194,7 +194,7 @@ img {
 
 }
 /* added hover to change the color of the link */
-.beomce-container a:hover {
+.become-container a:hover {
     color: var(--hov-color);
 }
 /* i set the rest of my project mock ups here to be smaller than the first project and to be lined up with 2 images on each row and have my text over the image */
@@ -238,27 +238,39 @@ img {
     position: absolute;
     left: 66%;
     top: 20%;
-    color:var(--hov-color);
+    color:var(--navbar-color);
     font-size: 2em;
     text-decoration: underline;
+}
+
+.photography-project:hover {
+    color: var(--hov-color);
 }
 
 .create-the-life-of-your-dreams {
     position: absolute;
     left: 33%;
     top: 53%;
-    color:var(--hov-color);
+    color:var(--navbar-color);
     font-size: 2em;
     text-decoration: underline;
+}
+
+.create-the-life-of-your-dreams:hover {
+    color: var(--hov-color);
 }
 
 .travel-stoked {
     position: absolute;
     left: 73%;
     top: 65%;
-    color:var(--hov-color);
+    color:var(--navbar-color);
     font-size: 2em;
     text-decoration: underline;
+}
+
+.travel-stoked:hover {
+    color: var(--hov-color);
 }
 
 
